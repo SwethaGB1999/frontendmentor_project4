@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    margin-bottom: 15px;
+}
+.main-container{
+    height: 200vh;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width:450px;
+    height:1320px;
+    background-color: white;
+    border-radius: 20px;
+}
+.inner-container{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.inner-container img{
+    width: 100%;
+    border-radius: 7px;
+
+}
+p,li{
+    font-family: "Outfit", sans-serif;
+    font-size: small;
+  font-weight: 100;
+  font-style: normal;
+    
+}
+.pink-box{
+    background-color: hsl(330, 100%, 98%);
+}
+.pink-box>div{
+    padding: 10px 20px 20px 20px;
+}
+.pink-box li{
+    margin: 5px;
+}
+
+li::marker {
+    font-size: 10px;
+    color:hsl(330, 66%, 40%) ;
+}
+h5{
+    color:hsl(330, 90%, 34%) ;
+    margin-left: 10px;
+    margin-top: 20px ;
+}
+h4{
+    color:hsl(32, 39%, 32%);
+    margin-bottom: 15px;
+}
+span{
+    font-weight:bold;
+    color: hsl(30, 10%, 34%);
+}
+.ingrediants{
+    margin-bottom: 15px;
+}
+.ingrediants>li{
+    margin: 10px;
+}
+ol{
+    padding: 12px;
+}
+ol>li{
+    margin: 10px;
+}
+ol li::marker { font-weight: bold ; }
+
+.calories{
+    display: inline;
+    width: 300px;
+    
+}
+.calorie{
+    display: flex;
+    padding: 10px;
+    
+}
+.calorie>p{
+    
+    width: 190px;
+}
+.calorie>span{
+    
+    padding-right: 0px;
+    color: hsl(30, 10%, 34%) ;
+}
+hr{
+    color: rgb(185, 183, 183);
+    
+    
+}
